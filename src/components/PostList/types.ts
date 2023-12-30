@@ -4,3 +4,8 @@ export type Post = {
   title: string;
   body: string;
 };
+
+export type PostListItemProps = {
+  post: Post;
+}
+

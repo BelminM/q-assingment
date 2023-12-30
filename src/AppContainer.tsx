@@ -8,8 +8,8 @@ const AppContainer = () => (
     <div className="route-section">
       <LoggingProvider>
         <Routes>
-          <Route path="/" element={<PostList />} />
-          <Route path="/post/:id" element={<PostDetail />} />
+          <Route path="/" Component={PostList} />
+          <Route path="/post/:id" Component={PostDetail} />
         </Routes>
       </LoggingProvider>
     </div>
